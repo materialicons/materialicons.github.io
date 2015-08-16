@@ -1,0 +1,42 @@
+/* Pygments */.ge,.sd{font-style:italic}.hll{background-color:#ffc}.c{color:#999}.err{color:#A00;background-color:#FAA}.k{color:#069}.o{color:#555}.cm{color:#999}.cp{color:#099}.c1,.cs{color:#999}.gd{background-color:#FCC;border:1px solid #C00}.gr{color:red}.gh{color:#030}.gi{background-color:#CFC;border:1px solid #0C0}.go{color:#AAA}.gp{color:#009}.gu{color:#030}.gt{color:#9C6}.kc,.kd,.kn,.kp,.kr{color:#069}.kt{color:#078}.m{color:#F60}.s{color:#d44950}.na{color:#4f9fcf}.nb{color:#366}.nc{color:#0A8}.no{color:#360}.nd{color:#99F}.ni{color:#999}.ne{color:#C00}.nf{color:#C0F}.nl{color:#99F}.nn{color:#0CF}.nt{color:#2f6f9f}.nv{color:#033}.ow{color:#000}.w{color:#bbb}.mf,.mh,.mo{color:#F60}.s2,.sb,.sc,.sd,.se,.sh{color:#C30}.si{color:#A00}.sx{color:#C30}.sr{color:#3AA}.s1{color:#C30}.ss{color:#FC3}.bp{color:#366}.vc,.vg,.vi{color:#033}.il{color:#F60}.css .nt+.nt,.css .o,.css .o+.nt{color:#999}
+
+a, a:hover, a:focus {
+	color: #03a9f4;
+}
+h1 {
+	font-weight: 400;
+}
+
+.jumbotron,
+.jumbotron a, .jumbotron a:hover, .jumbotron a:focus {
+	background-color: #03a9f4;
+	color: #fff;
+}
+
+#search-results {
+	text-align: center;
+}
+#search-results li {
+	float: left;
+	width: 25%;
+	height: 115px;
+	padding: 10px;
+	line-height: 1.4;
+	text-align: center;
+	background-color: #f9f9f9;
+	border: 1px solid #fff;
+}
+@media (min-width: 768px) {
+	#search-results li {
+		width: 12.5%;
+	}
+}
+#search-results li:hover {
+	color: #fff;
+	background-color: #03a9f4;
+}
+#search-results .mi {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}

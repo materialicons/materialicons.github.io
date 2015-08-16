@@ -1,0 +1,91 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Material icons</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="material-icons.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<div class="container">
+				<h1>Material icons</h1>
+				<p class="lead"><samp>&lt;i class="mi mi-face"&gt;&lt;/i&gt;</samp></p>
+				<p><i class="mi mi-face mi-48"></i></p>
+				<p class="lead"><a href="https://github.com/materialicons/material-icons">GitHub</a></p>
+			</div>
+		</div>
+		<div class="container">
+			<ul class="nav nav-pills">
+				<li class="active"><a href="#getting-started" data-toggle="tab">Getting started</a></li>
+				<li><a href="#sizing" data-toggle="tab">Sizing</a></li>
+				<li><a href="#npm-bower" data-toggle="tab">npm and Bower</a></li>
+				<li><a href="#about" data-toggle="tab">About</a></li>
+			</ul>
+			<br />
+			<div class="tab-content">
+				<div class="tab-pane fade in active" id="getting-started">
+					<p><a target="_blank" href="material-icons.min.css">Download Material icons CSS</a></p>
+					<p>Include the following code in <code>&lt;head&gt;</code> tag</p>
+{% highlight html %}
+<!-- Material icons font hosted by Google -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Material icons CSS toolkit -->
+<link rel="stylesheet" href="/path/to/css/material-icons.min.css">
+{% endhighlight %}
+					<p>To insert an icon use class <code>mi mi-*</code></p>
+{% highlight html %}
+<i class="mi mi-face"></i>
+{% endhighlight %}
+				</div>
+
+				<div class="tab-pane fade" id="sizing">
+					<p>Use classes <code>mi-18</code> <code>mi-24</code> <code>mi-36</code> <code>mi-48</code> to chane the size of icons.</p>
+					<p>
+						<i class="mi mi-face mi-18"></i>
+						<i class="mi mi-face mi-24"></i>
+						<i class="mi mi-face mi-36"></i>
+						<i class="mi mi-face mi-48"></i>
+					</p>
+					<p>More options coming soon...</p>
+				</div>
+				<div class="tab-pane fade" id="npm-bower">
+<h3>npm</h3>
+{% highlight bash %}
+npm install material-icons
+{% endhighlight %}
+<h3>Bower</h3>
+{% highlight bash %}
+bower install material-icons
+{% endhighlight %}
+				</div>
+				<div class="tab-pane fade" id="about">
+					<p>Material icons are <a target="_blank" href="https://www.google.com/design/icons/">designed by Google</a> and are free to use under <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Common Attribution 4.0 International License (CC-BY 4.0)</a>.</p>
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="input-group input-group-lg">
+				<span class="input-group-addon"><i class="mi mi-search"></i></span>
+				<input type="text" class="form-control" id="search" placeholder="Search Material icons">
+			</div>
+			<br />
+			<div>
+				<ul id="search-results" class="list-unstyled">
+				</ul>
+			</div>
+			<br />
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
