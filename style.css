@@ -14,7 +14,7 @@ h1 {
 }
 
 #search-results {
-	text-align: center;
+	min-height: 600px;
 }
 #search-results li {
 	float: left;
