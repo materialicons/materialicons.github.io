@@ -1,3 +1,5 @@
+window.location.href = 'https://marella.github.io/material-icons/'
+
 var results = [];
 
 function filterResults(results) {
